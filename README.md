@@ -1,7 +1,7 @@
-<h1 align="center">fivem-ts-boilerplate</h1>
+<h1 align="center">Ks-Hud Fivem TS Version</h1>
 
 <p align="center">
-  <i>:fire: A Typescript Boilerplate for FiveM :video_game:</i>
+  <i>:fire: A Typescript Hud for FiveM :video_game:</i>
   <br>
   <br>
   <a href="https://github.com/d0p3t/fivem-ts-boilerplate/blob/master/LICENSE">
@@ -17,8 +17,6 @@
     <img src="https://img.shields.io/discord/330910293934997504?label=Chat" alt="Chat">
   </a>
 </p>
-
-This is a basic boilerplate for creating a FiveM resource using Typescript. It includes webpack config files, linting (ESlint + prettier) and a directory structure to get you started. We recommend to use [fivem-js](https://github.com/d0p3t/fivem-js) alongside this boilerplate for faster development of client scripts.
 
 ## Usage
 1. Clone repository into your `resources/[local]` folder.
