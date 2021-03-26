@@ -6,5 +6,14 @@ description 'Fivem hud in ts'
 author 'Kilichi | Kilichi#5955'
 url 'https://github.com/Kilichi/ks_hud-ts'
 
-client_script 'dist/client/*.client.js'
-server_script 'dist/server/*.server.js'
+client_scripts { 
+  'dist/client/*.client.js'
+}
+
+files {
+  'html/index.html',
+  'html/app.js',
+  'html/styles.css'
+}
+
+ui_page 'html/index.html'
