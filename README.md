@@ -18,30 +18,7 @@
   </a>
 </p>
 
-## Usage
+## Install
 1. Clone repository into your `resources/[local]` folder.
 2. `npm i` to install dependencies.
 3. Put this in server.cfg `ensure ks_hud-ts`.
-
-### Development
-Use `npm run watch` to watch files during development.
-
-### Production
-Build your production ready code with `npm run build`.
-
-This will build the client and server script with the `--mode production` flag.
-
-### Automatic Builds (Optional)
-The `fxmanifest.lua` is not setup to automatically build upon first FXServer start. If you'd like to setup automatic builds you must add the following to your `fxmanifest.lua`.
-
-```lua
-dependency 'yarn'
-dependency 'webpack'
-
-webpack_config 'webpack.config.js'
-```
-
-However, due to the speed performance of the pre-packaged webpack/yarn of cfx-server-data, we suggest you don't do this and build manually as described previously ("Production").
-
-## License
-This product is MIT licensed. Please make sure you give credit and include this license in your product.
