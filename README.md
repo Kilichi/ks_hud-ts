@@ -20,8 +20,8 @@
 
 ## Usage
 1. Clone repository into your `resources/[local]` folder.
-2. `npm i` the dependencies.
-3. Start development.
+2. `npm i` to install dependencies.
+3. Put this in server.cfg `ensure ks_hud-ts`.
 
 ### Development
 Use `npm run watch` to watch files during development.
